@@ -1,5 +1,5 @@
 const displayPeople = async () => {
-  let response = await fetch("http://localhost:3000/api/people");
+  let response = await fetch("https://nodeassignment-oxnx.onrender.com/api/people");
   let peopleJSON = await response.json();
   let peopleDiv = document.getElementById("people");
 
@@ -25,7 +25,7 @@ const displayPeople = async () => {
 
     let img = document.createElement("img");
     section.append(img);
-    img.src = "http://localhost:3000/" + people.img;
+    img.src = "https://nodeassignment-oxnx.onrender.com/" + people.img;
   });
 };
 
