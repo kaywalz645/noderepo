@@ -1,4 +1,26 @@
 
 h1 {
     color:red;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color:white;
+}
+p{
+    color:white;
+}
+img {
+    max-width:400px;
+}
+#people{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto;
+}
+section{
+    margin:10px;
+    background-color: darkgreen;
+    padding:15px;
 }
